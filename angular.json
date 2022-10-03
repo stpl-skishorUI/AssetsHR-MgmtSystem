@@ -27,6 +27,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -94,6 +95,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -102,5 +104,8 @@
       }
     }
   },
-  "defaultProject": "AssetsHR-MgmtSystem"
+  "defaultProject": "AssetsHR-MgmtSystem",
+  "cli": {
+    "analytics": "68786556-1ec5-43bf-87fe-2a858ba50f1b"
+  }
 }
