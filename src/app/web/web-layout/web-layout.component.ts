@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavigationEnd, NavigationStart, Router } from '@angular/router';
 
 @Component({
   selector: 'app-web-layout',
@@ -6,10 +7,26 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./web-layout.component.css']
 })
 export class WebLayoutComponent implements OnInit {
+  hideHeader: boolean = true;
+  hideFooter: boolean = true;
 
-  constructor() { }
+  constructor(private router: Router) {
+    if (this.router.url == '/login') {
+      this.hideHeader = false;
+      this.hideFooter = false;
+    }
+  }
 
   ngOnInit(): void {
+    this.router.events.subscribe((event: any) => {
+      if (event.url === '/login') {
+        this.hideHeader = false;
+        this.hideFooter = false;
+      } else {
+        this.hideHeader = true;
+        this.hideFooter = true;
+      }
+    })
   }
 
 }

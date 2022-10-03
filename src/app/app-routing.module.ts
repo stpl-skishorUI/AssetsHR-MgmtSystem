@@ -1,7 +1,27 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { WebLayoutComponent } from './web/web-layout/web-layout.component';
+import { PartialLayoutComponent } from './partial/partial-layout/partial-layout.component';
 
-const routes: Routes = [{ path: 'home', loadChildren: () => import('./web/home/home.module').then(m => m.HomeModule) }, { path: 'login', loadChildren: () => import('./web/login/login.module').then(m => m.LoginModule) }, { path: 'web-layout', loadChildren: () => import('./web/web-layout/web-layout.module').then(m => m.WebLayoutModule) }, { path: 'web-header', loadChildren: () => import('./web/web-layout/web-header/web-header.module').then(m => m.WebHeaderModule) }, { path: 'web-footer', loadChildren: () => import('./web/web-layout/web-footer/web-footer.module').then(m => m.WebFooterModule) }];
+const routes: Routes = [
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  {
+    path: '',
+    component: WebLayoutComponent,
+    children: [
+      { path: '', loadChildren: () => import('./web/web-layout/web-layout.module').then(m => m.WebLayoutModule) },
+        ]
+  },
+  {
+    path: '',
+    component: PartialLayoutComponent,
+    children: [
+      { path: '', loadChildren: () => import('./partial/partial-layout/partial-layout.module').then(m => m.PartialLayoutModule), data: { title: 'Login' } },
+    ]
+  },
+  
+  
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
