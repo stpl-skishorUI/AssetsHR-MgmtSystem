@@ -51,9 +51,11 @@
     width: 260px;
     transition: width 0.5s ease;
 }
+.sidebar .sidebar-content .sidebar-menu ul li a span,
 .sidebar .sidebar-search .search-menu, .sidebar .sidebar-content .sidebar-menu .sidebar-dropdown > a:after {
     display: none !important;
 }
+.sidebar .sidebar-content .sidebar-menu ul li a span,
 .sidebar:hover .sidebar-content .sidebar-menu .sidebar-dropdown > a:after, .sidebar:hover .sidebar-search .search-menu {
     display: inline-block !important;
 }
@@ -233,6 +235,7 @@
     background-position: center;
     background-repeat: no-repeat;
     color: #353535;
+    box-shadow: 0 0 5px 2px rgb(0 0 0 / 16%);
 }
 .sidebar.sidebar-bg:before {
     content: '';
