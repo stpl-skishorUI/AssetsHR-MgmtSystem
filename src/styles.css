@@ -9,8 +9,8 @@ body {
 }
 :root{
     --main-color:rgba(143,87,251);
-    --main-light-color:rgba(114,69,200);
-    --main-dark-color:rgba(232,221,254);
+    --main-dark-color:rgba(114,69,200);
+    --main-light-color:rgba(232,221,254);
 }
 .bg-main{
     background-color: var(--main-color);
@@ -23,4 +23,28 @@ body {
 }
 .text-main{
     color: var(--main-color);
+}
+.card,
+mat-form-field,
+.mat-option-text,
+.mat-tab-label{
+    font-family: "Inter", "Helvetica Neue", sans-serif !important;
+}
+.mat-form-field-infix,
+.mat-option-text{
+    font-size: 0.85rem !important;
+}
+.dashboard-table{
+    font-family: "Inter", "Helvetica Neue", sans-serif !important;
+    width: 100% !important;
+}
+.dashboard-table th,
+.dashboard-table .mat-header-cell{
+    background-color: var(--main-light-color) !important;
+}
+.dashboard-table th,
+.dashboard-table .mat-header-cell,
+.dashboard-table .mat-cell,
+.dashboard-table td{
+    vertical-align: middle !important;
 }
