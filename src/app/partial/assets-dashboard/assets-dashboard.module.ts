@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { AssetsDashboardRoutingModule } from './assets-dashboard-routing.module';
 import { AssetsDashboardComponent } from './assets-dashboard.component';
+import { MaterialModule } from 'src/app/shared/angularMaterialModule/material.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { AssetsDashboardComponent } from './assets-dashboard.component';
   ],
   imports: [
     CommonModule,
-    AssetsDashboardRoutingModule
+    AssetsDashboardRoutingModule,
+    MaterialModule
   ]
 })
 export class AssetsDashboardModule { }
