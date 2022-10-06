@@ -7,3 +7,20 @@ body {
     font-family: "Inter", "Helvetica Neue", sans-serif !important;
     background-color: #eee;
 }
+:root{
+    --main-color:rgba(143,87,251);
+    --main-light-color:rgba(114,69,200);
+    --main-dark-color:rgba(232,221,254);
+}
+.bg-main{
+    background-color: var(--main-color);
+}
+.bg-main-light{
+    background-color: var(--main-light-color);
+}
+.bg-main-dark{
+    background-color: var(--main-dark-color);
+}
+.text-main{
+    color: var(--main-color);
+}
