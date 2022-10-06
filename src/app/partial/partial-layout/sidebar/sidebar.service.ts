@@ -13,7 +13,7 @@ export class SidebarService {
     },
     {
       title: 'Dashboard',
-      url:'dashboard',
+      url:'assets-dashboard',
       icon: 'fa-solid fa-chart-line',
       type: 'simple'
     },
