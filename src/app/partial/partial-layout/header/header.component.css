@@ -37,6 +37,7 @@
 .navbar {
     font-size: 0.85rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-block:10px;
 }
 .navbar .dropdown-header{
     color: var(--main-color);
@@ -98,4 +99,10 @@ header .input-group .form-control::placeholder{
 .breadcrumb .breadcrumb-item{
     color: #fff;
     text-decoration: none;
+}
+#bread-crumb{
+    padding-top: 2rem;
+}
+.navbar-scroll{
+    background: linear-gradient(90deg, rgba(0, 171, 226, 1) 0%, rgba(162, 105, 249, 1) 100%) !important;
 }

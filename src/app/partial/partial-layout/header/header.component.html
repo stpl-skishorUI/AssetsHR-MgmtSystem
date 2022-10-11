@@ -30,7 +30,7 @@
 </nav> -->
 
 <header>
-  <nav class="navbar bg-transparent navbar-expand-lg mb-4">
+  <nav class="navbar bg-transparent navbar-expand-lg sticky-top" (scroll)="onWindowScroll();">
     <div class="container">
       <a class="navbar-brand" href="#">
         <img src="assets/images/HRMS-Logo.svg" class="me-2 w-25">HRMS
@@ -145,10 +145,10 @@
     </div>
   </nav>
 
-  <div class="container">
+  <div class="container" id="bread-crumb">
     <div class="row">
       <div class="col-sm-12">
-        <p class="d-flex text-white fw-bold my-1">Dashboard</p>
+        <p class="d-flex text-white fw-bold mb-0">Dashboard</p>
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb mb-0">
             <li class="breadcrumb-item"><a href="#">Asset Management</a></li>

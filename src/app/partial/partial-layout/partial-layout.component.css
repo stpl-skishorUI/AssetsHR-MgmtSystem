@@ -43,6 +43,7 @@
 }
 .main-content {
     margin-top: -95px;
+    z-index: -1;
 }
 footer {
     position: fixed;
