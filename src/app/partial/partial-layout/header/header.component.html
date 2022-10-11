@@ -29,99 +29,134 @@
     </div>
 </nav> -->
 
-<nav class="navbar bg-light navbar-expand-lg">
+<header>
+  <nav class="navbar bg-transparent navbar-expand-lg mb-4">
     <div class="container">
-        <a class="navbar-brand" href="#">Offcanvas navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li><h6 class="dropdown-header">Dropdown header</h6></li>
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item dropdown megamenu"><a id="megamneu" href="" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle font-weight-bold text-uppercase">Mega Menu</a>
-                        <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0">
-                          <div class="container">
-                            <div class="row bg-white rounded-0 m-0 shadow-sm">
-                              <div class="col-lg-7 col-xl-8">
-                                <div class="p-4">
-                                  <div class="row">
-                                    <div class="col-lg-6 mb-4">
-                                      <h6 class="font-weight-bold text-uppercase">Heading one</h6>
-                                      <ul class="list-unstyled">
-                                        <li class="nav-item"><a href="" class="nav-link text-small pb-0">Home</a></li>
-                                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">About</a></li>
-                                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Help</a></li>
-                                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Account</a></li>
-                                      </ul>
-                                    </div>
-                                    <div class="col-lg-6 mb-4">
-                                      <h6 class="font-weight-bold text-uppercase">Heading two</h6>
-                                      <ul class="list-unstyled">
-                                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Home</a></li>
-                                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">About</a></li>
-                                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Help</a></li>
-                                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Account</a></li>
-                                      </ul>
-                                    </div>
-                                    <div class="col-lg-6 mb-4">
-                                      <h6 class="font-weight-bold text-uppercase">Heading three</h6>
-                                      <ul class="list-unstyled">
-                                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Home</a></li>
-                                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">About</a></li>
-                                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Help</a></li>
-                                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Account</a></li>
-                                      </ul>
-                                    </div>
-                                    <div class="col-lg-6 mb-4">
-                                      <h6 class="font-weight-bold text-uppercase">Heading four</h6>
-                                      <ul class="list-unstyled">
-                                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Home</a></li>
-                                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">About</a></li>
-                                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Help</a></li>
-                                        <li class="nav-item"><a href="" class="nav-link text-small pb-0 ">Account</a></li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col-lg-5 col-xl-4 px-0 d-none d-lg-block" style="background: center center url(https://images.unsplash.com/photo-1533637267520-4dfd6aa7ee93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1268&q=80)no-repeat; background-size: cover;"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                    <li class="nav-item">
-                      <a class="nav-link">Disabled</a>
-                    </li>
-                  </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
+      <a class="navbar-brand" href="#">
+        <img src="assets/images/HRMS-Logo.svg" class="me-2 w-25">HRMS
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
         </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav me-auto mb-lg-0">
+            <li class="nav-item dropdown megamenu">
+              <a href="" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                class="nav-link dropdown-toggle font-weight-bold">Asset Management</a>
+              <div aria-labelledby="megamneu" class="dropdown-menu p-0">
+                <div class="container">
+                  <div class="mega-dropdown shadow">
+                    <div class="row">
+                      <div class="col-lg-3 mb-3 mb-lg-0">
+                        <ul class="list-unstyled">
+                          <li>
+                            <h6 class="dropdown-header">Dashboard</h6>
+                          </li>
+                          <li><a href="" class="dropdown-item">Item Inward</a></li>
+                          <li><a href="" class="dropdown-item">Item Outward</a></li>
+                          <li><a href="" class="dropdown-item">Item Repair</a></li>
+                          <li><a href="" class="dropdown-item">Item History</a></li>
+                          <li><a href="" class="dropdown-item">Item Ledger</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-3 mb-3 mb-lg-0">
+                        <ul class="list-unstyled">
+                          <li>
+                            <h6 class="dropdown-header">Item Master</h6>
+                          </li>
+                          <li><a href="" class="dropdown-item">Group Master</a></li>
+                          <li><a href="" class="dropdown-item">Category Master</a></li>
+                          <li><a href="" class="dropdown-item">Parameter Master</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-3 mb-3 mb-lg-0">
+                        <ul class="list-unstyled">
+                          <li>
+                            <h6 class="dropdown-header">Vendor Master</h6>
+                          </li>
+                          <li><a href="" class="dropdown-item">Store Master</a></li>
+                          <li><a href="" class="dropdown-item">Vendor Master</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-3 mb-3 mb-lg-0">
+                        <ul class="list-unstyled">
+                          <li>
+                            <h6 class="dropdown-header">Item Issue</h6>
+                          </li>
+                          <li><a href="" class="dropdown-item">Item Registration</a></li>
+                          <li><a href="" class="dropdown-item">Item Issue/Return</a></li>
+                          <li><a href="" class="dropdown-item">Item Transfer</a></li>
+                          <li><a href="" class="dropdown-item">Item Repair Issue/Return</a></li>
+                          <li><a href="" class="dropdown-item">Item Scrap/Donated</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                HRMS
+              </a>
+              <ul class="dropdown-menu shadow">
+                <li>
+                  <h6 class="dropdown-header">Dropdown header</h6>
+                </li>
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center" role="search">
+            <div class="input-group me-3">
+              <input type="search" class="form-control" placeholder="Search">
+              <button class="btn btn-outline-secondary" type="button">
+                <i class="fa-solid fa-search"></i>
+              </button>
+            </div>
+            <div class="dropdown">
+              <button class="btn dropdown-toggle shadow-none p-0" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="/assets/images/user.jpg" class="avatar">
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</nav>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <p class="d-flex text-white fw-bold my-1">Dashboard</p>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item"><a href="#">Asset Management</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+</header>

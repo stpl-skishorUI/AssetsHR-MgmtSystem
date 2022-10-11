@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47">
+  <g id="Group_7" data-name="Group 7" transform="translate(1141.917 -430.083)">
+    <path id="Union_1" data-name="Union 1" d="M16.737,27.853.62,11.7s-2.008-2.659,1.2-5.443L22.316,26.612A6.362,6.362,0,0,1,18.5,28.358,3.29,3.29,0,0,1,16.737,27.853ZM5.628,1.746S8.563-1.136,11.207.505L27.323,16.662s2.008,2.659-1.2,5.443Z" transform="translate(-1132.365 439.442)" fill="#fff"/>
+    <path id="Union_2" data-name="Union 2" d="M16.737.505.62,16.662s-2.008,2.659,1.2,5.443L22.316,1.746A6.362,6.362,0,0,0,18.5,0,3.29,3.29,0,0,0,16.737.505ZM5.628,26.612s2.936,2.882,5.579,1.241L27.323,11.7s2.008-2.659-1.2-5.443Z" transform="translate(-1104.422 467.799) rotate(180)" fill="#fff"/>
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="3.5" cy="3.5" r="3.5" transform="translate(-1121.917 430.083)" fill="#fff"/>
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="3.5" cy="3.5" r="3.5" transform="translate(-1101.917 450.083)" fill="#fff"/>
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="3.5" cy="3.5" r="3.5" transform="translate(-1121.917 470.083)" fill="#fff"/>
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="3.5" cy="3.5" r="3.5" transform="translate(-1141.917 450.083)" fill="#fff"/>
+  </g>
+</svg>
