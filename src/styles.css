@@ -4,7 +4,7 @@ body {
 }
 body {
     margin: 0;
-    font-family: "Inter", "Helvetica Neue", sans-serif !important;
+    font-family: "Rubik", sans-serif !important;
     background-color: #eee;
 }
 :root{
@@ -24,18 +24,22 @@ body {
 .text-main{
     color: var(--main-color);
 }
+.material-symbols-outlined{
+    font-size: 1.2rem !important;
+    line-height: unset !important;
+}
 .card,
 mat-form-field,
 .mat-option-text,
 .mat-tab-label{
-    font-family: "Inter", "Helvetica Neue", sans-serif !important;
+    font-family: "Rubik", "Helvetica Neue", sans-serif !important;
 }
 .mat-form-field-infix,
 .mat-option-text{
     font-size: 0.85rem !important;
 }
 .dashboard-table{
-    font-family: "Inter", "Helvetica Neue", sans-serif !important;
+    font-family: "Rubik", "Helvetica Neue", sans-serif !important;
     width: 100% !important;
 }
 .dashboard-table th,
