@@ -1,8 +1,14 @@
 .avatar {
     width: 34px;
-    border-radius: 50%;
+    border-radius: 0.375rem;
 }
-
+.avatar-menu{
+    width: 275px;
+}
+.avatar-menu img{
+    width: 50px;
+    border-radius: 0.375rem;
+}
 .navbar .btn {
     font-size: 0.85rem;
     color: #fff;
@@ -32,6 +38,10 @@
 .navbar .dropdown-menu .dropdown-item {
     padding: 10px 15px;
     border-radius: 0.375rem;
+}
+.navbar .dropdown-menu .dropdown-item:hover {
+    color: var(--main-color);
+    background-color:#F4F6FA;
 }
 
 .navbar {
@@ -70,7 +80,7 @@
 }
 header {
     height: 250px;
-    background: linear-gradient(90deg, rgba(0, 171, 226, 0.7) 0%, rgba(162, 105, 249, 0.7) 100%), url("../../../../assets/images/header-bg.png");
+    background: linear-gradient(90deg, rgba(0, 171, 226, 0.8) 0%, rgba(162, 105, 249, 0.8) 100%), url("../../../../assets/images/header-bg.png");
 }
 header .input-group{
     border: solid 1px #eee;

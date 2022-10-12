@@ -143,11 +143,23 @@
                 data-bs-toggle="dropdown" aria-expanded="false">
                 <img src="/assets/images/user.jpg" class="avatar">
               </button>
-              <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+              <div class="dropdown-menu dropdown-menu-end shadow avatar-menu" aria-labelledby="dropdownMenuButton1">
+                <div class="p-2">
+                  <div class="d-flex align-items-center">
+                    <div class="flex-shrink-0">
+                      <img src="assets/images/user.jpg" alt="...">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <p class="mb-0 fw-bold">Pooja Ghorpade</p>
+                      <small class="text-muted">Sr. Administrator</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"><i class="fa-regular fa-circle-user me-2"></i>My Profile</a>
+                <a class="dropdown-item" href="#"><i class="fa-solid fa-key me-2"></i>Change Password</a>
+                <a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right-from-bracket me-2"></i>Sign Out</a>
+              </div>
             </div>
           </div>
         </div>
