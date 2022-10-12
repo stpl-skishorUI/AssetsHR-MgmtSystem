@@ -44,10 +44,11 @@ mat-form-field,
 }
 .dashboard-table th,
 .dashboard-table .mat-header-cell{
-    background-color: var(--main-light-color) !important;
+    background-color:#f5f5f5 !important;
     font-size: 0.85rem !important;
     font-weight: 600;
     color: #333;
+    text-transform: uppercase;
 }
 .dashboard-table th,
 .dashboard-table .mat-header-cell,
