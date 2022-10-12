@@ -8,9 +8,9 @@ body {
     background-color: #eee;
 }
 :root{
-    --main-color:rgba(143,87,251);
-    --main-dark-color:rgba(114,69,200);
-    --main-light-color:rgb(243, 237, 254);
+    --main-color:rgba(0, 171, 226);
+    --main-dark-color:rgb(0,119,158);
+    --main-light-color:rgb(229,246,252);
 }
 .bg-main{
     background-color: var(--main-color);
