@@ -35,10 +35,17 @@
     color: #fff;
     font-weight: 900;
 }
+.navbar .dropdown-menu .dropdown-item .material-symbols-outlined{
+    line-height: 1 !important;
+}
 .navbar .dropdown-menu .dropdown-item {
     padding: 10px 15px;
     border-radius: 0.375rem;
+    color: #5E6278;
+    display:flex;
+    align-items: center;
 }
+.navbar .dropdown-menu .dropdown-item.active,
 .navbar .dropdown-menu .dropdown-item:hover {
     color: var(--main-color);
     background-color:#F4F6FA;

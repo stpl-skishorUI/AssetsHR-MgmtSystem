@@ -131,13 +131,33 @@
             <button class="btn mx-2 btn-icon" type="button">
               <span class="material-symbols-outlined">
                 notifications_active
-                </span>
+              </span>
             </button>
-            <button class="btn me-2 btn-icon" type="button">
-              <span class="material-symbols-outlined">
-                light_mode
+            <div class="dropdown">
+              <button class="btn me-2 btn-icon" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="material-symbols-outlined">
+                  light_mode
                 </span>
-            </button>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end shadow">
+                <li><a class="dropdown-item" href="#">
+                  <span class="material-symbols-outlined me-2">
+                    light_mode
+                    </span> Light Mode
+                </a></li>
+                <li><a class="dropdown-item" href="#">
+                  <span class="material-symbols-outlined me-2">
+                    dark_mode
+                    </span>Dark Mode
+                </a></li>
+                <li><a class="dropdown-item" href="#">
+                  <span class="material-symbols-outlined me-2">
+                    monitor
+                    </span> System
+                </a></li>
+              </ul>
+            </div>
+
             <div class="dropdown">
               <button class="btn dropdown-toggle shadow-none p-0" type="button" id="dropdownMenuButton1"
                 data-bs-toggle="dropdown" aria-expanded="false">
