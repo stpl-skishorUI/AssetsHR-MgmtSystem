@@ -52,7 +52,7 @@
 .navbar .navbar-nav .nav-link.active,
 .navbar .navbar-nav .nav-link:active,
 .navbar .navbar-nav .nav-link:hover{
-    background-color:rgba(255, 255, 255, 0.2)
+    background-color:rgba(255, 255, 255, 0.2);
 }
 .megamenu {
     position: static;
@@ -105,4 +105,11 @@ header .input-group .form-control::placeholder{
 }
 .navbar-scroll{
     background: linear-gradient(90deg, rgba(0, 171, 226, 1) 0%, rgba(162, 105, 249, 1) 100%) !important;
+}
+.btn-icon{
+    font-size: 0.85rem !important;
+}
+.btn-icon:hover{
+    font-size: 0.85rem !important;
+    background-color:rgba(255, 255, 255, 0.2) !important;
 }
