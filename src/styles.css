@@ -24,9 +24,25 @@ body {
 .text-main{
     color: var(--main-color);
 }
+.btn-main-outline{
+    color: var(--main-color);
+    border:solid 1px var(--main-color);
+    background-color:transparent;
+}
 .material-symbols-outlined{
     font-size: 1.2rem !important;
     line-height: inherit !important;
+}
+.plain-card{
+    border: none;
+    border-radius: 0.375rem !important;
+}
+.plain-card .card-header{
+    font-size: 0.85rem;
+    color: #57595D;
+}
+.plain-card .card-body{
+    font-size: 0.85rem;
 }
 .card,
 mat-form-field,
