@@ -56,3 +56,6 @@ mat-form-field,
 .dashboard-table td{
     vertical-align: middle !important;
 }
+.btn-close{
+    box-shadow: none !important;
+}
