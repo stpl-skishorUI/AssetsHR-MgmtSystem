@@ -40,6 +40,8 @@ body {
 .plain-card .card-header{
     font-size: 0.85rem;
     color: #57595D;
+    background-color: transparent;
+    border-bottom: none !important;
 }
 .plain-card .card-body{
     font-size: 0.85rem;
