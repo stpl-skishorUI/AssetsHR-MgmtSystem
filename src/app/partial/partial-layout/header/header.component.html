@@ -50,7 +50,7 @@
             aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-          <div class="row justify-content-between w-100">
+          <div class="row justify-content-between w-100 gx-0">
             <div class="col-sm order-last order-lg-first">
               <ul class="navbar-nav me-auto mb-lg-0">
                 <li class="nav-item dropdown megamenu mb-2 mb-lg-0">
@@ -199,11 +199,11 @@
   <div class="container" id="bread-crumb">
     <div class="row">
       <div class="col-sm-12">
-        <p class="d-flex text-white fw-bold mb-0">Dashboard</p>
+        <p class="d-flex text-white fw-bold mb-1">{{this.title}}</p>
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb mb-0">
             <li class="breadcrumb-item"><a href="#">Asset Management</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+            <li class="breadcrumb-item active" aria-current="page">{{this.title}}</li>
           </ol>
         </nav>
       </div>
