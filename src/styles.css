@@ -144,7 +144,14 @@ mat-form-field,
     line-height: 36px !important;
     height: 36px !important;
 }
-
+.form-container .form-label{
+    color: #A7A7A7 !important;
+    font-size: 0.8rem;
+    margin-bottom: 2px !important;
+}
+.form-container .form-data{
+    font-size: 0.85rem;
+}
 
 
 
