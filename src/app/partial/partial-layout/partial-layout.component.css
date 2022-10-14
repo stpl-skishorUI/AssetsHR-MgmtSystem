@@ -46,10 +46,7 @@
     z-index: -1;
 }
 footer {
-    position: fixed;
-    bottom: 0;
     background-color: #eee;
     width: 100%;
-    padding: 10px;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
 }
