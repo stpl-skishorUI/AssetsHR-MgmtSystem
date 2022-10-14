@@ -176,6 +176,7 @@ mat-form-field,
 
 .scrollbar::-webkit-scrollbar {
     -webkit-appearance: none;
+    appearance: none;
     background-color: transparent;
     height: 0.375rem;
     visibility: hidden;
