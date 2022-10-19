@@ -11,5 +11,26 @@ export class ItemParamterMasterComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  displayedColumns: string[] = ['srno', 'parameter_name', 'action'];
+  dataSource = ELEMENT_DATA;
 }
+export interface PeriodicElement {
+  srno: number;
+  parameter_name: string;
+  action: any;
+}
+const ELEMENT_DATA: PeriodicElement[] = [
+  {srno: 1, parameter_name: 'Hydrogen', action:''},
+  {srno: 1, parameter_name: 'Hydrogen', action:''},
+  {srno: 1, parameter_name: 'Hydrogen', action:''},
+  {srno: 1, parameter_name: 'Hydrogen', action:''},
+  {srno: 1, parameter_name: 'Hydrogen', action:''},
+  {srno: 1, parameter_name: 'Hydrogen', action:''},
+  {srno: 1, parameter_name: 'Hydrogen', action:''},
+  {srno: 1, parameter_name: 'Hydrogen', action:''},
+  {srno: 1, parameter_name: 'Hydrogen', action:''},
+  {srno: 1, parameter_name: 'Hydrogen', action:''},
+  {srno: 1, parameter_name: 'Hydrogen', action:''},
+  {srno: 1, parameter_name: 'Hydrogen', action:''},
+  {srno: 1, parameter_name: 'Hydrogen', action:''},
+];
