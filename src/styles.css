@@ -17,6 +17,7 @@ body {
 
 .bg-main {
     background-color: var(--main-color);
+    color: #fff;
 }
 
 .bg-main-light {
@@ -152,7 +153,10 @@ mat-form-field,
 .form-container .form-data{
     font-size: 0.85rem;
 }
-
+button .material-symbols-outlined{
+    font-size: 24px !important;
+    line-height: 1 !important;
+}
 
 
 
