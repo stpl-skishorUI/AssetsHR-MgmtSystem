@@ -19,9 +19,9 @@
                       <img src="/assets/images/user.jpg" class="avatar">
                     </button>
                     <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="dropdownMenuButton1">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><a class="dropdown-item" routerLink="#">Action</a></li>
+                      <li><a class="dropdown-item" routerLink="#">Another action</a></li>
+                      <li><a class="dropdown-item" routerLink="#">Something else here</a></li>
                     </ul>
                   </div>
             </div>
@@ -32,7 +32,7 @@
 <header>
   <nav class="navbar bg-transparent navbar-expand-lg sticky-top" (scroll)="onWindowScroll();">
     <div class="container">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" routerLink="#">
         <img src="assets/images/HRMS-Logo.svg" class="me-2 w-25">HRMS
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
@@ -65,11 +65,11 @@
                               <li>
                                 <h6 class="dropdown-header">Dashboard</h6>
                               </li>
-                              <li><a href="" class="dropdown-item">Item Inward</a></li>
-                              <li><a href="" class="dropdown-item">Item Outward</a></li>
-                              <li><a href="" class="dropdown-item">Item Repair</a></li>
-                              <li><a href="" class="dropdown-item">Item History</a></li>
-                              <li><a href="" class="dropdown-item">Item Ledger</a></li>
+                              <li><a routerLink="assets-dashboard" class="dropdown-item">Item Inward</a></li>
+                              <li><a routerLink="assets-dashboard" class="dropdown-item">Item Outward</a></li>
+                              <li><a routerLink="assets-dashboard" class="dropdown-item">Item Repair</a></li>
+                              <li><a routerLink="assets-dashboard" class="dropdown-item">Item History</a></li>
+                              <li><a routerLink="assets-dashboard" class="dropdown-item">Item Ledger</a></li>
                             </ul>
                           </div>
                           <div class="col-lg-3 mb-3 mb-lg-0">
@@ -77,30 +77,30 @@
                               <li>
                                 <h6 class="dropdown-header">Item Master</h6>
                               </li>
-                              <li><a href="" class="dropdown-item">Group Master</a></li>
-                              <li><a href="" class="dropdown-item">Category Master</a></li>
-                              <li><a href="" class="dropdown-item">Parameter Master</a></li>
+                              <li><a routerLink="item-group-master" class="dropdown-item">Group Master</a></li>
+                              <li><a routerLink="item-category-master" class="dropdown-item">Category Master</a></li>
+                              <li><a routerLink="item-paramter-master" class="dropdown-item">Parameter Master</a></li>
                             </ul>
                           </div>
                           <div class="col-lg-3 mb-3 mb-lg-0">
                             <ul class="list-unstyled">
                               <li>
-                                <h6 class="dropdown-header">Vendor Master</h6>
+                                <h6 class="dropdown-header">Store & Vendor Master</h6>
                               </li>
-                              <li><a href="" class="dropdown-item">Store Master</a></li>
-                              <li><a href="" class="dropdown-item">Vendor Master</a></li>
+                              <li><a routerLink="store-master" class="dropdown-item">Store Master</a></li>
+                              <li><a routerLink="vendor-master" class="dropdown-item">Vendor Master</a></li>
                             </ul>
                           </div>
                           <div class="col-lg-3 mb-3 mb-lg-0">
                             <ul class="list-unstyled">
                               <li>
-                                <h6 class="dropdown-header">Item Issue</h6>
+                                <h6 class="dropdown-header">Manage Item</h6>
                               </li>
-                              <li><a href="" class="dropdown-item">Item Registration</a></li>
-                              <li><a href="" class="dropdown-item">Item Issue/Return</a></li>
-                              <li><a href="" class="dropdown-item">Item Transfer</a></li>
-                              <li><a href="" class="dropdown-item">Item Repair Issue/Return</a></li>
-                              <li><a href="" class="dropdown-item">Item Scrap/Donated</a></li>
+                              <li><a routerLink="item-registration" class="dropdown-item">Item Registration</a></li>
+                              <li><a routerLink="item-issue-return" class="dropdown-item">Item Issue/Return</a></li>
+                              <li><a routerLink="item-transfer" class="dropdown-item">Item Transfer</a></li>
+                              <li><a routerLink="item-repair-issue-return" class="dropdown-item">Item Repair Issue/Return</a></li>
+                              <li><a routerLink="item-scrap-donated" class="dropdown-item">Item Scrap/Donated</a></li>
                             </ul>
                           </div>
                         </div>
@@ -109,7 +109,7 @@
                   </div>
                 </li>
                 <li class="nav-item dropdown mb-2 mb-lg-0">
-                  <a class="nav-link dropdown-toggle d-flex justify-content-between align-items-center" href="#" role="button" data-bs-toggle="dropdown"
+                  <a class="nav-link dropdown-toggle d-flex justify-content-between align-items-center" routerLink="#" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     HRMS
                   </a>
@@ -117,12 +117,12 @@
                     <li>
                       <h6 class="dropdown-header">Dropdown header</h6>
                     </li>
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" routerLink="#">Action</a></li>
+                    <li><a class="dropdown-item" routerLink="#">Another action</a></li>
                     <li>
                       <hr class="dropdown-divider">
                     </li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" routerLink="#">Something else here</a></li>
                   </ul>
                 </li>
               </ul>
@@ -147,17 +147,17 @@
                     </span>
                   </button>
                   <ul class="dropdown-menu dropdown-menu-end shadow">
-                    <li><a class="dropdown-item" href="#">
+                    <li><a class="dropdown-item" routerLink="#">
                       <span class="material-symbols-outlined me-2">
                         light_mode
                         </span> Light Mode
                     </a></li>
-                    <li><a class="dropdown-item" href="#">
+                    <li><a class="dropdown-item" routerLink="#">
                       <span class="material-symbols-outlined me-2">
                         dark_mode
                         </span>Dark Mode
                     </a></li>
-                    <li><a class="dropdown-item" href="#">
+                    <li><a class="dropdown-item" routerLink="#">
                       <span class="material-symbols-outlined me-2">
                         monitor
                         </span> System
@@ -183,9 +183,9 @@
                       </div>
                     </div>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#"><i class="fa-regular fa-circle-user me-2"></i>My Profile</a>
-                    <a class="dropdown-item" href="#"><i class="fa-solid fa-key me-2"></i>Change Password</a>
-                    <a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right-from-bracket me-2"></i>Sign Out</a>
+                    <a class="dropdown-item" routerLink="#"><i class="fa-regular fa-circle-user me-2"></i>My Profile</a>
+                    <a class="dropdown-item" routerLink="#"><i class="fa-solid fa-key me-2"></i>Change Password</a>
+                    <a class="dropdown-item" routerLink="#"><i class="fa-solid fa-arrow-right-from-bracket me-2"></i>Sign Out</a>
                   </div>
                 </div>
               </div>
@@ -202,7 +202,7 @@
         <p class="d-flex text-white fw-bold mb-1">{{this.title}}</p>
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb mb-0">
-            <li class="breadcrumb-item"><a href="#">Asset Management</a></li>
+            <li class="breadcrumb-item"><a routerLink="#">Asset Management</a></li>
             <li class="breadcrumb-item active" aria-current="page">{{this.title}}</li>
           </ol>
         </nav>
