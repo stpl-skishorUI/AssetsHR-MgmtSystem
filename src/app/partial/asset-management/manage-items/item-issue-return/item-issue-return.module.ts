@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { ItemIssueReturnRoutingModule } from './item-issue-return-routing.module';
 import { ItemIssueReturnComponent } from './item-issue-return.component';
+import { MaterialModule } from 'src/app/shared/angularMaterialModule/material.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { ItemIssueReturnComponent } from './item-issue-return.component';
   ],
   imports: [
     CommonModule,
-    ItemIssueReturnRoutingModule
+    ItemIssueReturnRoutingModule,
+    MaterialModule
   ]
 })
 export class ItemIssueReturnModule { }
