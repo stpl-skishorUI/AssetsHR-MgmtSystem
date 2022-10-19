@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { ItemTransferRoutingModule } from './item-transfer-routing.module';
 import { ItemTransferComponent } from './item-transfer.component';
+import { MaterialModule } from 'src/app/shared/angularMaterialModule/material.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { ItemTransferComponent } from './item-transfer.component';
   ],
   imports: [
     CommonModule,
-    ItemTransferRoutingModule
+    ItemTransferRoutingModule,
+    MaterialModule,
   ]
 })
 export class ItemTransferModule { }
