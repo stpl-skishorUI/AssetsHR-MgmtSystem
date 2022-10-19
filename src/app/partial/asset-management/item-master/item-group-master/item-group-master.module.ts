@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { ItemGroupMasterRoutingModule } from './item-group-master-routing.module';
 import { ItemGroupMasterComponent } from './item-group-master.component';
-
+import {MaterialModule} from 'src/app/shared/angularMaterialModule/material.module';
 
 @NgModule({
   declarations: [
@@ -11,7 +11,8 @@ import { ItemGroupMasterComponent } from './item-group-master.component';
   ],
   imports: [
     CommonModule,
-    ItemGroupMasterRoutingModule
+    ItemGroupMasterRoutingModule,
+    MaterialModule
   ]
 })
 export class ItemGroupMasterModule { }
