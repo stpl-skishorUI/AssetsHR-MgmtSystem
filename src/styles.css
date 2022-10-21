@@ -65,6 +65,8 @@ body {
 
 .plain-card .card-body {
     font-size: 0.85rem;
+    border-bottom-left-radius: 0.5rem !important;
+    border-bottom-right-radius: 0.5rem !important;
 }
 
 .card,
